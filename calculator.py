@@ -1,3 +1,15 @@
+def divide():
+    a = float(input("Enter first number: "))
+    b = float(input("Enter second number: "))
+
+    if b == 0:
+        print("Error: you can't divide by zero")
+        return
+
+    print("Result:", a / b)
+
+divide()
+
 x=(input("Enter a number from 1-100: "))
 y=(input("Enter the power you want to raise the number to from 1-5: "))
 def power(x, y):
